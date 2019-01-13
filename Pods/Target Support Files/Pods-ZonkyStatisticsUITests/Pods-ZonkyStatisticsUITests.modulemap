@@ -1,0 +1,6 @@
+framework module Pods_ZonkyStatisticsUITests {
+  umbrella header "Pods-ZonkyStatisticsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

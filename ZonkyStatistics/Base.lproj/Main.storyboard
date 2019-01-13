@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,80 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ZonkyStatistics" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UPD-44-Mvq" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="88" width="375" height="567"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="TGl-9g-RFu">
+                                <rect key="frame" x="0.0" y="10" width="375" height="73"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Se-dI-8oy" customClass="DLRadioButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="207.5" height="73"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="posledních 12 měsíců">
+                                            <color key="titleColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.52549019610000003" green="0.52549019610000003" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onLast12Months:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pL4-Sv-dvs"/>
+                                            <outletCollection property="otherButtons" destination="OVQ-6m-LDh" id="Qxg-Tc-2G1"/>
+                                            <outletCollection property="otherButtons" destination="DdG-I0-M7w" id="g5O-vw-JRV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DdG-I0-M7w" customClass="DLRadioButton">
+                                        <rect key="frame" x="207.5" y="0.0" width="83.5" height="73"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="rok 2018">
+                                            <color key="titleColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.52549019610000003" green="0.52549019610000003" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onlastYear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dx5-fG-Jzf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVQ-6m-LDh" customClass="DLRadioButton">
+                                        <rect key="frame" x="291" y="0.0" width="84" height="73"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="rok 2017">
+                                            <color key="titleColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.52549019610000003" green="0.52549019610000003" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="on2YearsAgo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tuz-h7-QaK"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TGl-9g-RFu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5VI-lI-CxK"/>
+                            <constraint firstItem="TGl-9g-RFu" firstAttribute="trailing" secondItem="UPD-44-Mvq" secondAttribute="trailing" id="DNo-hd-fHH"/>
+                            <constraint firstItem="UPD-44-Mvq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="68" id="Hmw-d5-XvY"/>
+                            <constraint firstItem="TGl-9g-RFu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-10" id="Yqo-BU-8TA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UPD-44-Mvq" secondAttribute="bottom" constant="12" id="cuR-g4-dhz"/>
+                            <constraint firstItem="UPD-44-Mvq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="88" id="ddZ-xi-9Sx"/>
+                            <constraint firstItem="TGl-9g-RFu" firstAttribute="leading" secondItem="UPD-44-Mvq" secondAttribute="leading" id="jj7-a8-twd"/>
+                            <constraint firstAttribute="trailing" secondItem="TGl-9g-RFu" secondAttribute="trailing" id="mTG-zv-JaQ"/>
+                            <constraint firstItem="UPD-44-Mvq" firstAttribute="top" secondItem="TGl-9g-RFu" secondAttribute="bottom" constant="5" id="vVl-hE-X5g"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="TwoYearsAgoBtn" destination="OVQ-6m-LDh" id="ILQ-TL-vMf"/>
+                        <outlet property="chart" destination="UPD-44-Mvq" id="YPX-n5-Sjt"/>
+                        <outlet property="last12MonthsBtn" destination="0Se-dI-8oy" id="svP-vn-guB"/>
+                        <outlet property="lastYearBtn" destination="DdG-I0-M7w" id="JoT-bW-Bfe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="132" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>

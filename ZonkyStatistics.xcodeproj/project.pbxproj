@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A05E7CB21EB36C200DF6C35 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A05E7CA21EB36C200DF6C35 /* DateExt.swift */; };
+		1A05E7CD21EBC0BF00DF6C35 /* LoanChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A05E7CC21EBC0BF00DF6C35 /* LoanChartViewModel.swift */; };
+		1A05E7CF21EBDB0C00DF6C35 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A05E7CE21EBDB0C00DF6C35 /* Utility.swift */; };
+		1A05E7D121EBDCA700DF6C35 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A05E7D021EBDCA700DF6C35 /* Loan.swift */; };
 		1A1A0A7421E9EC5500ECCABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A0A7321E9EC5500ECCABA /* AppDelegate.swift */; };
 		1A1A0A7621E9EC5500ECCABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A0A7521E9EC5500ECCABA /* ViewController.swift */; };
 		1A1A0A7921E9EC5500ECCABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A0A7721E9EC5500ECCABA /* Main.storyboard */; };
@@ -14,6 +18,11 @@
 		1A1A0A7E21E9EC5600ECCABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A0A7C21E9EC5600ECCABA /* LaunchScreen.storyboard */; };
 		1A1A0A8921E9EC5700ECCABA /* ZonkyStatisticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A0A8821E9EC5700ECCABA /* ZonkyStatisticsTests.swift */; };
 		1A1A0A9421E9EC5700ECCABA /* ZonkyStatisticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A0A9321E9EC5700ECCABA /* ZonkyStatisticsUITests.swift */; };
+		1A1A0AA221E9ECBD00ECCABA /* LoanServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A0AA121E9ECBD00ECCABA /* LoanServiceApi.swift */; };
+		1A1A0AA421E9ED3600ECCABA /* LoanStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A0AA321E9ED3600ECCABA /* LoanStatistics.swift */; };
+		2149C96216C93F5A85B00BC5 /* Pods_ZonkyStatistics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA4E2573806F53F3091054D /* Pods_ZonkyStatistics.framework */; };
+		537C89DBBC2E61DB1BAB904D /* Pods_ZonkyStatisticsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDA5F2880AF288F51538896 /* Pods_ZonkyStatisticsTests.framework */; };
+		A31031773F02F53E811D1539 /* Pods_ZonkyStatisticsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5CA145561D45C171D5B9DD /* Pods_ZonkyStatisticsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05C47B2DC8CD4D836B175D34 /* Pods-ZonkyStatisticsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZonkyStatisticsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZonkyStatisticsUITests/Pods-ZonkyStatisticsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A05E7CA21EB36C200DF6C35 /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
+		1A05E7CC21EBC0BF00DF6C35 /* LoanChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanChartViewModel.swift; sourceTree = "<group>"; };
+		1A05E7CE21EBDB0C00DF6C35 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		1A05E7D021EBDCA700DF6C35 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
 		1A1A0A7021E9EC5500ECCABA /* ZonkyStatistics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZonkyStatistics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1A0A7321E9EC5500ECCABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A1A0A7521E9EC5500ECCABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,16 @@
 		1A1A0A8F21E9EC5700ECCABA /* ZonkyStatisticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZonkyStatisticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1A0A9321E9EC5700ECCABA /* ZonkyStatisticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZonkyStatisticsUITests.swift; sourceTree = "<group>"; };
 		1A1A0A9521E9EC5700ECCABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A1A0AA121E9ECBD00ECCABA /* LoanServiceApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanServiceApi.swift; sourceTree = "<group>"; };
+		1A1A0AA321E9ED3600ECCABA /* LoanStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanStatistics.swift; sourceTree = "<group>"; };
+		2BA4E2573806F53F3091054D /* Pods_ZonkyStatistics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZonkyStatistics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B64D274BCCD5D233C95FB87 /* Pods-ZonkyStatistics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZonkyStatistics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZonkyStatistics/Pods-ZonkyStatistics.debug.xcconfig"; sourceTree = "<group>"; };
+		7DC928575557DA1D9060C94E /* Pods-ZonkyStatistics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZonkyStatistics.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZonkyStatistics/Pods-ZonkyStatistics.release.xcconfig"; sourceTree = "<group>"; };
+		8EAF2B1CEEA14CD50F1017CC /* Pods-ZonkyStatisticsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZonkyStatisticsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZonkyStatisticsUITests/Pods-ZonkyStatisticsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C4BB185812C464F54BC49AC /* Pods-ZonkyStatisticsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZonkyStatisticsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZonkyStatisticsTests/Pods-ZonkyStatisticsTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA5CA145561D45C171D5B9DD /* Pods_ZonkyStatisticsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZonkyStatisticsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDA5F2880AF288F51538896 /* Pods_ZonkyStatisticsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZonkyStatisticsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F73C0B1CE5B85178545069 /* Pods-ZonkyStatisticsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZonkyStatisticsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZonkyStatisticsTests/Pods-ZonkyStatisticsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2149C96216C93F5A85B00BC5 /* Pods_ZonkyStatistics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537C89DBBC2E61DB1BAB904D /* Pods_ZonkyStatisticsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A31031773F02F53E811D1539 /* Pods_ZonkyStatisticsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,8 @@
 				1A1A0A8721E9EC5700ECCABA /* ZonkyStatisticsTests */,
 				1A1A0A9221E9EC5700ECCABA /* ZonkyStatisticsUITests */,
 				1A1A0A7121E9EC5500ECCABA /* Products */,
+				42284F4AA929B7BBDB618BBC /* Pods */,
+				5922C3A82BEAE6CF9B766674 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +126,14 @@
 		1A1A0A7221E9EC5500ECCABA /* ZonkyStatistics */ = {
 			isa = PBXGroup;
 			children = (
-				1A1A0A7321E9EC5500ECCABA /* AppDelegate.swift */,
+				1A1A0AA121E9ECBD00ECCABA /* LoanServiceApi.swift */,
+				1A1A0AA321E9ED3600ECCABA /* LoanStatistics.swift */,
+				1A05E7D021EBDCA700DF6C35 /* Loan.swift */,
+				1A05E7CA21EB36C200DF6C35 /* DateExt.swift */,
+				1A05E7CC21EBC0BF00DF6C35 /* LoanChartViewModel.swift */,
 				1A1A0A7521E9EC5500ECCABA /* ViewController.swift */,
+				1A05E7CE21EBDB0C00DF6C35 /* Utility.swift */,
+				1A1A0A7321E9EC5500ECCABA /* AppDelegate.swift */,
 				1A1A0A7721E9EC5500ECCABA /* Main.storyboard */,
 				1A1A0A7A21E9EC5600ECCABA /* Assets.xcassets */,
 				1A1A0A7C21E9EC5600ECCABA /* LaunchScreen.storyboard */,
@@ -125,6 +160,29 @@
 			path = ZonkyStatisticsUITests;
 			sourceTree = "<group>";
 		};
+		42284F4AA929B7BBDB618BBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B64D274BCCD5D233C95FB87 /* Pods-ZonkyStatistics.debug.xcconfig */,
+				7DC928575557DA1D9060C94E /* Pods-ZonkyStatistics.release.xcconfig */,
+				F0F73C0B1CE5B85178545069 /* Pods-ZonkyStatisticsTests.debug.xcconfig */,
+				9C4BB185812C464F54BC49AC /* Pods-ZonkyStatisticsTests.release.xcconfig */,
+				8EAF2B1CEEA14CD50F1017CC /* Pods-ZonkyStatisticsUITests.debug.xcconfig */,
+				05C47B2DC8CD4D836B175D34 /* Pods-ZonkyStatisticsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5922C3A82BEAE6CF9B766674 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BA4E2573806F53F3091054D /* Pods_ZonkyStatistics.framework */,
+				EDDA5F2880AF288F51538896 /* Pods_ZonkyStatisticsTests.framework */,
+				AA5CA145561D45C171D5B9DD /* Pods_ZonkyStatisticsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A1A0A9821E9EC5700ECCABA /* Build configuration list for PBXNativeTarget "ZonkyStatistics" */;
 			buildPhases = (
+				FADDD68C80336B3A13059656 /* [CP] Check Pods Manifest.lock */,
 				1A1A0A6C21E9EC5500ECCABA /* Sources */,
 				1A1A0A6D21E9EC5500ECCABA /* Frameworks */,
 				1A1A0A6E21E9EC5500ECCABA /* Resources */,
+				49B9673BE936DF3AA6A1EF18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A1A0A9B21E9EC5700ECCABA /* Build configuration list for PBXNativeTarget "ZonkyStatisticsTests" */;
 			buildPhases = (
+				FC26722F88EE8F23F9854191 /* [CP] Check Pods Manifest.lock */,
 				1A1A0A8021E9EC5700ECCABA /* Sources */,
 				1A1A0A8121E9EC5700ECCABA /* Frameworks */,
 				1A1A0A8221E9EC5700ECCABA /* Resources */,
@@ -167,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A1A0A9E21E9EC5700ECCABA /* Build configuration list for PBXNativeTarget "ZonkyStatisticsUITests" */;
 			buildPhases = (
+				DAC97094160EC91930D85DBA /* [CP] Check Pods Manifest.lock */,
 				1A1A0A8B21E9EC5700ECCABA /* Sources */,
 				1A1A0A8C21E9EC5700ECCABA /* Frameworks */,
 				1A1A0A8D21E9EC5700ECCABA /* Resources */,
@@ -251,13 +313,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49B9673BE936DF3AA6A1EF18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZonkyStatistics/Pods-ZonkyStatistics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZonkyStatistics/Pods-ZonkyStatistics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC97094160EC91930D85DBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZonkyStatisticsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FADDD68C80336B3A13059656 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZonkyStatistics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC26722F88EE8F23F9854191 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZonkyStatisticsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A1A0A6C21E9EC5500ECCABA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A05E7CF21EBDB0C00DF6C35 /* Utility.swift in Sources */,
+				1A1A0AA421E9ED3600ECCABA /* LoanStatistics.swift in Sources */,
 				1A1A0A7621E9EC5500ECCABA /* ViewController.swift in Sources */,
+				1A05E7CB21EB36C200DF6C35 /* DateExt.swift in Sources */,
+				1A05E7CD21EBC0BF00DF6C35 /* LoanChartViewModel.swift in Sources */,
+				1A1A0AA221E9ECBD00ECCABA /* LoanServiceApi.swift in Sources */,
 				1A1A0A7421E9EC5500ECCABA /* AppDelegate.swift in Sources */,
+				1A05E7D121EBDCA700DF6C35 /* Loan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,10 +577,12 @@
 		};
 		1A1A0A9921E9EC5700ECCABA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B64D274BCCD5D233C95FB87 /* Pods-ZonkyStatistics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZonkyStatistics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +596,12 @@
 		};
 		1A1A0A9A21E9EC5700ECCABA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC928575557DA1D9060C94E /* Pods-ZonkyStatistics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZonkyStatistics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +615,7 @@
 		};
 		1A1A0A9C21E9EC5700ECCABA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F73C0B1CE5B85178545069 /* Pods-ZonkyStatisticsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +636,7 @@
 		};
 		1A1A0A9D21E9EC5700ECCABA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4BB185812C464F54BC49AC /* Pods-ZonkyStatisticsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +657,7 @@
 		};
 		1A1A0A9F21E9EC5700ECCABA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EAF2B1CEEA14CD50F1017CC /* Pods-ZonkyStatisticsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +677,7 @@
 		};
 		1A1A0AA021E9EC5700ECCABA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C47B2DC8CD4D836B175D34 /* Pods-ZonkyStatisticsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
