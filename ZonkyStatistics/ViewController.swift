@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     let activityIndicator = UIActivityIndicatorView(style: .whiteLarge)
     var chartVm = LoanChartViewModel()
 
+    // Mark: life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         chartVm.delegate = self
