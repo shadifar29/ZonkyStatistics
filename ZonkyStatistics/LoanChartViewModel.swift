@@ -12,6 +12,7 @@ import Alamofire
 protocol LoanDataDelegate: class {
     func loanDataRecived(_ response: Result<[(month:Double, numOfLoans:Double)]>)
     func downloadStart()
+    func downloadStart3()
 }
 
 class LoanChartViewModel{
