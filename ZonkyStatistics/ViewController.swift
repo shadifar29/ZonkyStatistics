@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  ZonkyStatistics
-//
-//  Created by Sadi on 12/01/2019.
-//  Copyright © 2019 Sadi. All rights reserved.
-//
-
 import UIKit
 import Charts
 import DLRadioButton
